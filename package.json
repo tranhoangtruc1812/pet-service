@@ -6,7 +6,8 @@
   "scripts": {
     "seo:export-urls": "node scripts/export-legacy-urls.mjs",
     "seo:generate-redirects": "node scripts/generate-redirects.mjs",
-    "seo:validate-redirects": "node scripts/validate-redirects.mjs"
+    "seo:validate-redirects": "node scripts/validate-redirects.mjs",
+    "start": "node scripts/serve-static.mjs"
   },
   "engines": {
     "node": ">=18"
