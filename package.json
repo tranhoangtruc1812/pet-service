@@ -1,0 +1,14 @@
+{
+  "name": "petservicehcm-seo-migration-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter repository to rebuild petservicehcm.com while preserving SEO",
+  "scripts": {
+    "seo:export-urls": "node scripts/export-legacy-urls.mjs",
+    "seo:generate-redirects": "node scripts/generate-redirects.mjs",
+    "seo:validate-redirects": "node scripts/validate-redirects.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

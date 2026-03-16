@@ -1,0 +1,8 @@
+[
+  {
+    "source": "/",
+    "destination": "/",
+    "permanent": true,
+    "statusCode": 301
+  }
+]
